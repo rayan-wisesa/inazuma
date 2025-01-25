@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+
+p {
+    font-family: "Montserrat",sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Philosopher",sans-serif;
+}
+
+#headerfotogede .inazumagede {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+#headerfotogede {
+    background-image:url("../assets/1160737.jpg");
+    color: white;
+    padding: 8.5rem;
+    background-size: cover;
+    margin: -8px;
+
+}
+
+.navcontainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: 2a2263;
+    margin-inline: -8px;
+    position: sticky;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Philosopher";
+}
+
+main {
+    background-color: 2a2263;
+    margin-right: -20px;
+    margin-bottom: -8px;   
+    margin-left: -10px;
+    width: 100%;
+    padding: 20px;
+}
+
+#introduction {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+}
+
+.intro1 {
+    display: flex;
+    align-items: center;
+}
+
+.intro1h2 {
+    writing-mode: vertical-lr;
+    rotate: 180deg;
+    
+}
+
+.intro1 img, .intro2 img {
+    border-radius: 15px;
+}
+
+.intro2 {
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
