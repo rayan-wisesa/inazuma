@@ -21,10 +21,48 @@ h1, h2, h3, h4, h5, h6 {
 #headerfotogede {
     background-image:url("../assets/1160737.jpg");
     color: white;
-    padding: 8.5rem;
+    padding: 7.3rem;
     background-size: cover;
     margin: -8px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
 
+.buttonref li a, .buttonref li {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Philosopher", sans-serif;
+    list-style: none;
+    background-color: 2a2263;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 25px;
+
+}
+
+.buttonref li a:hover {
+    color: #333;
+    transition: 0.5s ease-in-out;
+    padding: 7px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+}
+
+.navlist {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar {
+    position: sticky;
 }
 
 .navcontainer {
@@ -34,19 +72,6 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-around;
     background-color: 2a2263;
     margin-inline: -8px;
-    position: sticky;
-}
-
-nav ul {
-    display: flex;
-    gap: 50px;
-    list-style-type: none;
-}
-
-nav li a {
-    color: white;
-    text-decoration: none;
-    font-family: "Philosopher";
 }
 
 main {
@@ -85,3 +110,19 @@ main {
     justify-content: space-around;
     align-items: center;
 }
+
+#islands img, p, h1 {
+    width: 55%;
+    color: white;
+}
+
+.narukami {
+    display: flex;
+    align-items: center;
+}
+
+.bpnarukami {
+    display: flex;
+    flex-flow: column-reverse;
+}
+
