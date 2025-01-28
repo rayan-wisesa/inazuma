@@ -25,16 +25,17 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 10%;
 }
 
+
+
 #headerfotogede {
     background-image:url("../assets/1160737.jpg");
     color: white;
-    padding: 7.3rem;
+    padding: 3.3rem;
     background-size: cover;
     margin: auto;
     display: flex;
     flex-flow: column;
     align-items: center;
-    
 }
 
 .buttonref li a, .buttonref li {
@@ -105,6 +106,7 @@ main {
     justify-content: space-around;
     align-items: center;
 }
+
 
 
 #islands {
